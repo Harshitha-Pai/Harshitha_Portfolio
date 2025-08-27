@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard.jsx";
-import { projects } from "../data/projects.js";
+import { projects } from "../data/projects.jsx";
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
       <section id="projects" className="section">
         <div className="section-head reveal">
           <h2>Selected Work</h2>
-          <p className="muted">A few projects I’m proud of.</p>
+          <p className="muted">A few projects I am proud of.</p>
         </div>
         <div className="grid">
           {projects.map(p => <ProjectCard key={p.slug} project={p} />)}
@@ -41,9 +41,9 @@ export default function Home() {
             Open to internships, freelance and collaborations.
           </p>
           <div className="cta-row">
-            <a className="btn primary" href="mailto:your-email@example.com">Email Me</a>
+            <a className="btn primary" href="harshithapaimaipal@gmail.com">Email Me</a>
             <a className="btn ghost" href="https://github.com/Harshitha-Pai" target="_blank">GitHub</a>
-            <a className="btn ghost" href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a className="btn ghost" href="https://www.linkedin.com/in/harshitha-a-pai-032004may/" target="_blank">LinkedIn</a>
           </div>
         </div>
       </section>

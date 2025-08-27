@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { projects } from "../data/projects.js";
+import { projects } from "../data/projects.jsx";
 import { useState } from "react";
 
 export default function Project() {
@@ -40,7 +40,7 @@ export default function Project() {
       <div className="project-body reveal">
         <div className="stack">
           <h3>About this project</h3>
-          <p>{project.description}</p>
+           {project.description}
         </div>
 
         <div className="stack">
