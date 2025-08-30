@@ -111,7 +111,7 @@ export const projects = [
     tech: ["Java","Spring Boot", "React Native","Java Script", "MongoDB", "JWT"],
     images: [FlowCare1,FlowCare2,FlowCare3],
     links: {
-      github: "https://github.com/Harshitha-Pai",
+      github: "https://github.com/Harshitha-Pai/Flow-Care",
       live: "",
     },
   },
@@ -152,7 +152,7 @@ export const projects = [
     tech: ["HTML", "CSS","Java Script"],
     images: [TOH1,TOH2,TOH3,TOH4],
     links: {
-      github: "https://github.com/Harshitha-Pai",
+      github: "https://github.com/Harshitha-Pai/TowerOfHanoi",
       live: "",
     },
   },
