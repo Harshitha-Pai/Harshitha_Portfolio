@@ -7,24 +7,23 @@ export default function Home() {
   return (
     <>
       {/* HERO */}
-      {/* HERO */}
-<section className="hero reveal" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '4rem', backgroundColor: '#8e5839ff', color: '#fff' }}>
-  {/* Left photo */}
-  <div className="hero-photo" style={{ flex: '1', display: 'flex', justifyContent: 'center' }}>
-    <img src={me} alt="Harshitha Pai" style={{ width: '300px', height: '300px', objectFit: 'cover', borderRadius: '0.5rem' }} />
-  </div>
+      <section className="hero reveal" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '4rem', backgroundColor: '#8e5839ff', color: '#fff' }}>
+        {/* Left photo */}
+        <div className="hero-photo" style={{ flex: '1', display: 'flex', justifyContent: 'center' }}>
+          <img src={me} alt="Harshitha Pai" style={{ width: '300px', height: '300px', objectFit: 'cover', borderRadius: '0.5rem' }} />
+       </div>
 
-  {/* Right text */}
-  <div className="hero-text" style={{ flex: '1', paddingLeft: '3rem' }}>
-    <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem' }}>Hi, I am Harshitha</h1>
-    <p style={{ fontSize: '1rem', marginBottom: '2rem', color: '#ccc' }}>
-      I am a Designer-Developer crafting clean, usable interfaces. I blend <strong>UI/UX</strong> thinking with solid engineering to build reliable, human-centered products.
-    </p>
-    <div className="cta-row" style={{ display: 'flex', gap: '1rem' }}>
-      <a href="#projects" className="btn primary" style={{ padding: '0.75rem 1.5rem', backgroundColor: '#fff', color: '#000', borderRadius: '0.5rem', fontWeight: 'bold' }}>Explore Now</a>
-    </div>
-  </div>
-</section>
+        {/* Right text */}
+        <div className="hero-text" style={{ flex: '1', paddingLeft: '3rem' }}>
+          <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem' }}>Hi, I am Harshitha</h1>
+            <p style={{ fontSize: '1rem', marginBottom: '2rem', color: '#ccc' }}>
+              I am a Designer-Developer crafting clean, usable interfaces. I blend <strong>UI/UX</strong> thinking with solid engineering to build reliable, human-centered products.
+           </p>
+           <div className="cta-row" style={{ display: 'flex', gap: '1rem' }}>
+             <a href="#projects" className="btn primary" style={{ padding: '0.75rem 1.5rem', backgroundColor: '#fff', color: '#000', borderRadius: '0.5rem', fontWeight: 'bold' }}>Explore Now</a>
+           </div>
+        </div>
+     </section>
 
 
 
