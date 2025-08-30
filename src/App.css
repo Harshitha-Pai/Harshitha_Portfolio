@@ -197,3 +197,51 @@ body{
 
 .gallery.reveal .nav.left { left: 10px; }
 .gallery.reveal .nav.right { right: 10px; }
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap; /* wraps on smaller screens */
+  padding: 2rem 1rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px; /* prevent text from shrinking too much */
+}
+
+.hero-photo {
+  flex: 1;
+  max-width: 350px;
+  position: relative;
+  border-radius: 16px; /* smooth corners */
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-photo::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(135deg, #e0c097, #c47f4b); /* subtle gradient behind photo */
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.hero-photo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+}

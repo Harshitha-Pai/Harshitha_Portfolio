@@ -9,6 +9,14 @@ import Cuepets5 from "../assets/Cuepets5.png";
 import Cuepets6 from "../assets/Cuepets6.png";
 import Cuepets7 from "../assets/Cuepets7.png";
 import Cuepets8 from "../assets/Cuepets8.png";
+import FlowCare1 from "../assets/FlowCare1.png";
+import FlowCare2 from "../assets/FlowCare2.png";
+import FlowCare3 from "../assets/FlowCare3.png";
+import TOH1 from "../assets/TOH1.png";
+import TOH2 from "../assets/TOH2.png";
+import TOH3 from "../assets/TOH3.png";
+import TOH4 from "../assets/TOH4.png";
+
 
 const img = (seed) => `https://picsum.photos/seed/${seed}/960/540`;
 
@@ -69,23 +77,80 @@ export const projects = [
     slug: "flowcare",
     title: "FlowCare — Period Tracker",
     brief: "Health tracking app with reminders, predictions, and a simple, friendly UI.",
-    description:
-      "FlowCare helps users log cycles, symptoms, and mood. It predicts next periods and ovulation using cycle stats and supports reminders. Built as a learning project across full-stack and mobile.",
-    tech: ["Spring Boot", "React Native", "MongoDB", "JWT"],
-    images: [img("flowcare-1"), img("flowcare-2"), img("flowcare-3")],
+    description: (
+  <>
+    <p>
+      <strong>FlowCare</strong> is a modern digital health and wellness platform 
+      designed to help individuals track, understand, and manage their menstrual cycles 
+      with ease and accuracy.
+    </p>
+
+    <p>
+      It empowers users with personalized insights, secure data storage, and 
+      an intuitive interface, making it more than just a period tracker — it’s 
+      a complete self-care companion.
+    </p>
+
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li><strong>Period & Cycle Tracking:</strong> Log periods, symptoms, and mood to predict future cycles.</li>
+      <li><strong>Health Diary:</strong> Maintain notes about daily experiences, pain levels, and lifestyle changes.</li>
+      <li><strong>Reminders & Notifications:</strong> Get alerts for upcoming cycles, fertility windows, and medication schedules.</li>
+      <li><strong>Insights & Analytics:</strong> Visualize health data with charts and patterns over time.</li>
+      <li><strong>Secure Authentication:</strong> Protects sensitive health data with encrypted login.</li>
+      <li><strong>Responsive UI:</strong> Optimized for mobile and desktop for seamless accessibility.</li>
+    </ul>
+
+    <p>
+      The backend is powered by <strong>Java Spring Boot</strong> with RESTful APIs 
+      for smooth data exchange, while <strong>MongoDB</strong> ensures flexible and 
+      secure data storage.
+    </p>
+  </>
+),
+    tech: ["Java","Spring Boot", "React Native","Java Script", "MongoDB", "JWT"],
+    images: [FlowCare1,FlowCare2,FlowCare3],
     links: {
       github: "https://github.com/Harshitha-Pai",
       live: "",
     },
   },
     {
-    slug: "slytherin",
-    title: "SLYTHERIN — Snake Identification (CNN)",
-    brief: "Deep learning classifier with Kaggle dataset and a clean Gradio interface.",
-    description:
-      "A CNN-based classifier trained on a curated Kaggle dataset to identify snake species. Includes a Gradio UI for quick inference. Focus on clean dataset pipelines and explainability.",
-    tech: ["Python", "TensorFlow", "CNN", "Gradio"],
-    images: [img("slytherin-1"), img("slytherin-2"), img("slytherin-3")],
+    slug: "Hanoi",
+    title: "Tower of Hanoi",
+    brief: "Interactive Tower of Hanoi game with drag-and-drop, move tracking, and customizable difficulty.",
+    description: (
+    <>
+      <p>
+        <strong>Tower of Hanoi</strong> is an interactive web-based puzzle game
+          that challenges users to move disks across pegs while following the classic
+        Tower of Hanoi rules.
+      </p>
+
+      <p>
+        Built using <strong>HTML, CSS, and JavaScript</strong>, the game features
+        drag-and-drop functionality, allowing users to intuitively move disks and
+        solve the puzzle.
+      </p>
+
+      <p><strong>Key Features:</strong></p>
+      <ul>
+        <li><strong>Customizable difficulty:</strong> Choose between 1 to 99 disks before starting.</li>
+        <li><strong>Move tracking:</strong> Keep count of moves to monitor performance.</li>
+        <li><strong>Interactive UI:</strong> Drag-and-drop mechanics for smooth gameplay.</li>
+        <li><strong>Responsive design:</strong> Works seamlessly across devices.</li>
+        <li><strong>User feedback:</strong> Positive responses from faculty and 25+ classmates.</li>
+      </ul>
+
+      <p>
+        The game demonstrates strong front-end skills in <strong>JavaScript</strong>,
+        with dynamic DOM manipulation, event handling, and responsive styling via
+        <strong> HTML</strong> and <strong>CSS</strong>.
+      </p>
+     </>
+   ),
+    tech: ["HTML", "CSS","Java Script"],
+    images: [TOH1,TOH2,TOH3,TOH4],
     links: {
       github: "https://github.com/Harshitha-Pai",
       live: "",
