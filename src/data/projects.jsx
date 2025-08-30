@@ -16,6 +16,8 @@ import TOH1 from "../assets/TOH1.png";
 import TOH2 from "../assets/TOH2.png";
 import TOH3 from "../assets/TOH3.png";
 import TOH4 from "../assets/TOH4.png";
+import ML1 from "../assets/ML1.png";
+import ML2 from "../assets/ML2.png";
 
 
 const img = (seed) => `https://picsum.photos/seed/${seed}/960/540`;
@@ -156,4 +158,47 @@ export const projects = [
       live: "",
     },
   },
+  {
+  slug: "resume-predict",
+  title: "Resume Screening ML App",
+  brief: "Machine learning-powered app that predicts whether a resume is shortlisted or not using logistic regression and TF-IDF.",
+  description: (
+    <>
+      <p>
+        <strong>Resume Screening ML App</strong> is a machine learning-powered
+        web application that predicts whether a candidate’s resume will be
+        shortlisted or not, based on resume text analysis.
+      </p>
+
+      <p>
+        Built using <strong>Python, Scikit-learn, and Streamlit</strong>, the app
+        leverages a Logistic Regression model trained on resume datasets, with
+        TF-IDF vectorization for text feature extraction. The trained model is
+        integrated into an interactive Streamlit interface for real-time predictions.
+      </p>
+
+      <p><strong>Key Features:</strong></p>
+      <ul>
+        <li><strong>ML Model:</strong> Logistic Regression trained with TF-IDF for text classification.</li>
+        <li><strong>Interactive UI:</strong> Simple Streamlit-based interface for uploading and testing resumes.</li>
+        <li><strong>Real-time prediction:</strong> Instantly classifies resumes as Shortlisted or Not Shortlisted.</li>
+        <li><strong>Reusable model:</strong> Trained model stored using Joblib for easy deployment.</li>
+        <li><strong>Lightweight app:</strong> Can run locally or be deployed to cloud platforms.</li>
+      </ul>
+
+      <p>
+        The project demonstrates practical skills in <strong>Machine Learning</strong>,
+        <strong> Natural Language Processing (NLP)</strong>, and building
+        <strong> interactive ML applications</strong>.
+      </p>
+    </>
+  ),
+  tech: ["Python", "Scikit-learn", "Streamlit", "Pandas", "NumPy", "Joblib"],
+    images: [ML1, ML2],
+  links: {
+    github: "https://github.com/Harshitha-Pai/Job-prediction-using-resume",
+    live: "",
+  },
+}
+
 ];

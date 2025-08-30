@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
         <h3>{project.title}</h3>
         <p className="muted">{project.brief}</p>
         <div className="tags">
-          {project.tech.slice(0, 4).map(t => (
+          {project.tech.slice(0, 5).map(t => (
             <span key={t} className="tag">{t}</span>
           ))}
         </div>
