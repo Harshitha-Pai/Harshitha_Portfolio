@@ -49,6 +49,14 @@ export default function Home() {
             <a className="btn primary" href="mailto:harshithapaimaipal@gmail.com">Email Me</a>
             <a className="btn ghost" href="https://github.com/Harshitha-Pai" target="_blank">GitHub</a>
             <a className="btn ghost" href="https://www.linkedin.com/in/harshitha-a-pai-032004may/" target="_blank">LinkedIn</a>
+            <a 
+              href="/resume.pdf" 
+              download="resume.pdf" 
+              className="btn ghost"
+            >
+              Download Resume
+           </a>
+
           </div>
         </div>
       </section>
